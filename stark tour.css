@@ -1,0 +1,216 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+
+body {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 169px;
+    height: 44px;
+    float: right;
+    margin: 20px;
+    vertical-align: middle;
+
+
+
+}
+
+.wrapper {
+    width: 1200px;
+
+    margin: 5px auto;
+
+}
+
+#navbar {
+    height: 100px;
+    background-color: white;
+
+}
+
+#search {
+    margin: 33px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+a:first-of-type {
+    margin-right: ;
+}
+
+#menu {
+    float: right;
+    width: 750px;
+}
+
+#search {
+    float: left;
+    width: 500px;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[id=submit] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#search input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+#main {
+    background-color: whitesmoke;
+}
+
+#sidebar {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    float: right;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+#sidebar>input {
+    width: 100%;
+    height: 3em;
+
+}
+
+#sidebar>p {
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+
+form>input[type=checkbox] {
+    margin: 3px;
+}
+
+#sidebarlabel {
+    width: 30px;
+}
+
+input[placeholder] {
+    padding: 5px;
+}
+
+#sidebar>button {
+    width: 100px;
+    margin: 20px 100px;
+}
+
+#content {
+    width: 850px;
+
+    float: left;
+    margin-top: 40px;
+    overflow-y: hidden;
+}
+
+.post {
+    width: 250px;
+    height: 310px;
+    background-color: white;
+    float: right;
+    border: 1px solid #bbb;
+    margin: 11px;
+    border-radius: 6px;
+    padding: ;
+
+}
+
+.post img {
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.post span {
+    position: relative;
+}
+
+.fa-calendar::before {
+    content: "\f133";
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    background-color: darkblue;
+    color: white;
+}
+
+#sitemap {
+    float: right;
+}
+
+#sitemap ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dotted white;
+}
+
+#sitemap h3 {
+    border-bottom: 3px solid white;
+    color: white;
+    width: 100px;
+}
+
+#newsletter {
+    float: left;
+}
+
+#top {
+    border-bottom: 5px solid darkgreen;
+    border-top: 5px solid orangered;
+}
+
+#socialmedia {
+    text-align: center;
+}
+
+#bottom {
+    text-align: center;
+}
+
+#copyright {
+    color: white;
+}
+
+.post h3 {
+    margin: 10px;
+
+
+}
